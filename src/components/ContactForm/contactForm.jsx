@@ -35,9 +35,9 @@ export class ContactForm extends Component {
                     Name
                     <input
                      className={css.input_form}
-                      type="text"
-                      name="name"
-                      value={this.state.name}
+                     type="text"
+                     name="name"
+                     value={this.state.name}
                      onChange={this.handelChange}
                      required
                     />
@@ -45,14 +45,15 @@ export class ContactForm extends Component {
                 <label className={css.label} htmlFor={this.numberIdInput} >
                     Number
                     <input
-                      className={css.input_form}
-                      type="text"
-                      name="number"
-                      value={this.state.number}
+                     className={css.input_form}
+                     type="text"
+                     name="number"
+                     value={this.state.number}
                      onChange={this.handelChange}
                      required
                     />
                 </label>
+                
                 <button className={css.btn} type="submit">
                     Add contact
                 </button>

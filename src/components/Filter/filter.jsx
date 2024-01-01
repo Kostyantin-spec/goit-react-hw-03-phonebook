@@ -4,7 +4,7 @@ export const Filter = ({ value, onChangeFilter }) => {
     return (
         <label className={css.filter}>
 
-            Find contacts by Name
+            Find contacts by name
 
             <input className={css.input} type='text'
               name='filter'
